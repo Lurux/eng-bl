@@ -393,6 +393,24 @@
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
 
+<div onload="document.getElementById('modal').style.display='block'"></div>
+
+<div id="modal" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+    <header class="w3-container w3-teal"> 
+      <span onclick="document.getElementById('id01').style.display='none'" 
+      class="w3-button w3-display-topright">&times;</span>
+      <h2>Notice !</h2>
+    </header>
+    <div class="w3-container">
+      <p>This website is experimental ! In case of displaying problems, please consider using Firefox. Thanks !</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Thanks.</p>
+    </footer>
+  </div>
+</div>
+
 <!-- END CONTENT -->
 </div>
 
